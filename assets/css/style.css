@@ -1,3 +1,20 @@
+/* set repeated color values through stylesheet */
+
+:root {
+    --primary-color: #31343d;
+    --secondary-color: #445876;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: var(--primary-color);
+
 body {
     background-color: aquamarine;
     color: pink;
