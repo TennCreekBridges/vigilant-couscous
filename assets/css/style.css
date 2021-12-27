@@ -3,6 +3,7 @@
 :root {
     --primary-color: #31343d;
     --secondary-color: #445876;
+    --tertiary-color: #92cccd;
 }
 
 * {
@@ -12,18 +13,48 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Nav Menu & Header*/
+
+/* header {
+    height: 50px;
+
+} */
+/* #header {
+    width= */
+
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color);    
+} 
+
+nav a {
+    color: var(--tertiary-color);
+    font-size: 10pt;
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    text-decoration: none;
+    border-bottom-color: var(--primary-color) solid 30px;
+}
+
+/* nav a.hover {
+     */
+
+.namebox {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    height: 50px;
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+hero img {
+    max-width: 100%;
+    height: auto;
+}
 
 body {
-    background-color: aquamarine;
-    color: pink;
+    color: var(--primary-color);   
 }
 
-h1 {
-    color: pink;
-}
 
-.cmon {
-    color: teal;
-}
