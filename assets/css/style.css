@@ -66,12 +66,14 @@ header a {
   header nav li {
       display: inline-block;
       margin: 5px 10px;
+
   }
   
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    border-bottom: var(--tertiary-color) 3px solid;
   }
 
 .boxcolor {
@@ -94,8 +96,10 @@ header a {
 #quote {
     height: 50px;
     width: 300px;
-    display: flex;
-    align-items: center;
+    float: right;
+    margin-right: 50px;
+    margin-top: -75px;
+    padding: 5px;
 }
 
 hero img {
@@ -115,5 +119,20 @@ hero img {
     transform: translate(-50%, -50%);
 }
 
+#about-me {
+    color: var(--secondary-color);
+    width: 20%;
+    text-align: right;
+    vertical-align: center;
+    border-right: solid 2px var(--secondary-color);
+    padding: 20px 0 20px 0;
+    float: left;
+    margin-top: 10px;
+}
+
+.text-spacing {
+    padding-right: 10px;
+
+}
 
 
