@@ -61,6 +61,7 @@ header a {
 .boxcolor {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
+    position: relative;
   }
 
 /* Set Styling Specific to Name Box */
@@ -168,3 +169,13 @@ hero img {
     margin-left: 5px;
 }
 
+.text-block {
+        height: 50px;
+        width: 150px;
+        float: left;
+        margin-left: 8px;
+        margin-top: -75px;
+        padding: 5px;
+        z-index: 10;
+        
+    }
