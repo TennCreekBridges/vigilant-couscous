@@ -150,3 +150,21 @@ hero img {
     float: left;
     padding-right: 8px;
 }
+
+.project img {
+    border-radius: 0;
+    border: var(--tertiary-color) 3px solid;
+    padding: 0;
+}
+
+.lg-img img {
+    width: 97%;
+    margin-left: 5px;
+}
+
+.sm-img img {
+    max-width: 48%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
