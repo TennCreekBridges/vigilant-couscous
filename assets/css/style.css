@@ -1,4 +1,4 @@
-/* set repeated color values through stylesheet */
+/* Set Repeated Color Values Across Stylesheet */
 
 :root {
     --primary-color: #31343d;
@@ -13,12 +13,18 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Nav Menu & Header*/
+.flex {
+    display: flex;
+}
 
-/* header {
-    height: 50px;
+/* Main Body Styling */
 
-} */
+body {
+    color: var(--primary-color);   
+}
+
+/* Header & Nav Styling */
+
 header {
     width: 100%;
     height: 80px;
@@ -27,41 +33,12 @@ header {
     align-items: center;
 }
 
-.flex {
-    display: flex;
-}
-/* 
-header nav li {
-    list-style: none;
-} */
-
-/* nav li a {
-    color: var(--tertiary-color);
-    font-size: 10pt;
-    float: right;
-    padding-right: 20px;
-    text-decoration: none;
-    vertical-align: center;
-} */
-
-body {
-    color: var(--primary-color);   
-}
-
 header a {
     text-decoration: none;
     color: var(--tertiary-color);
   }
-  
-  /* header nav {
-    float: left;
-  }
-   */
-
 
   header nav ul {
-    /* display: block;
-    float: right; */
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -69,9 +46,7 @@ header a {
   }
 
   header nav li {
-      /* display: inline-block; */
       margin: 5px 10px;
-
   }
   
   header nav ul li a {
@@ -81,10 +56,14 @@ header a {
     border-bottom: var(--tertiary-color) 3px solid;
   }
 
+/* Set Blue Box Text & Background Colors */
+
 .boxcolor {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
   }
+
+/* Set Styling Specific to Name Box */
 
 #namebox {
     height: 50px;
@@ -98,6 +77,8 @@ header a {
     margin-right: 10px;
 }
 
+/* Set Styling Specific to Jazzy Quote */
+
 #quote {
     height: 50px;
     width: 300px;
@@ -105,18 +86,24 @@ header a {
     margin-right: 50px;
     margin-top: -75px;
     padding: 5px;
+    z-index: 10;
 }
+
+/* Setting Height and Max Width on Hero Image */
 
 hero img {
     max-width: 100%; 
     height: auto;
 }
 
-.test {
+/* Set Text Positioning of Quote */
+
+.quote {
     position: relative;
     text-align: center;
-    float: clear;
 }
+
+/* Set Positioning of Quote Box */
 
 .centered {
     position: absolute;
@@ -125,9 +112,7 @@ hero img {
     transform: translate(-50%, -50%);
 }
 
-/* #main {
-    float: left;
-} */
+/* Set Border, Sizing, Padding, Margin on Left Sidebar */
 
 .sidebars {
     color: var(--secondary-color);
@@ -136,9 +121,10 @@ hero img {
     vertical-align: center;
     border-right: solid 2px var(--secondary-color);
     padding: 20px 0 20px 0;
-
-    /* float: left; */
+    margin-top: 10px;
 }
+
+/* Set Additional Size, Spacing, Margins, Color & Floats on Text */
 
 .text-spacing-left {
     padding-right: 10px;
@@ -147,11 +133,20 @@ hero img {
 
 .text-spacing-right {
     color: var(--secondary-color);
-    width: 50%;
+    width: 60%;
     padding-top: 20px;
     margin-left: 20px;
     float: left;
-
 }
 
+.text-spacing-right p {
+    font-size: 1.8vw;
+}
+/* Set Size & Corner Border on Image */
 
+.text-spacing-right img {
+    width: 150px;
+    border-radius: 10%;
+    float: left;
+    padding-right: 8px;
+}
