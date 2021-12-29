@@ -58,6 +58,11 @@ header nav ul li a {
     border-bottom: var(--tertiary-color) 3px solid;
   }
 
+  header nav ul li a:hover {
+      color: var(--secondary-color)
+      background-color: var(--tertiary-color);
+  }
+
 /* Set Blue Box Text & Background Colors */
 
 .boxcolor {
@@ -227,33 +232,39 @@ hero img {
     font-size: 1.55vw;
 }
 
+#nav2 {
+    display: block;
+}
+
+footer {
+     margin-bottom: 30px;
+}
+
 #contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
-    justify-content: center;
-    float: left;
+    align-items: center;
+    /* justify-content: center; */
 }
 
-
 #contact-info ul {
-    display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between;
-    align-items: flex-end; */
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
+    padding-left: 20px;
+  }
+
+  #contact-info li {
+      margin: 5px 10px;
   }
 
   #contact-info ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    border-bottom: var(--tertiary-color) 3px solid;
+    border-bottom: var(--secondary-color) 3px solid;
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
   }
-
-  #contact-info nav ul li {
-    margin: 5px 10px;
-}
