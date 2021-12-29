@@ -31,6 +31,7 @@ header {
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 header a {
@@ -38,18 +39,19 @@ header a {
     color: var(--tertiary-color);
   }
 
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
   }
 
-  header nav li {
+header nav li {
       margin: 5px 10px;
   }
   
-  header nav ul li a {
+header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
@@ -84,7 +86,7 @@ header a {
     height: 50px;
     width: 300px;
     float: right;
-    margin-right: 50px;
+    margin-right: 5%;
     margin-top: -75px;
     padding: 5px;
     z-index: 10;
@@ -169,13 +171,89 @@ hero img {
     margin-left: 5px;
 }
 
+.sm-img {
+    position: relative;
+}
+
 .text-block {
-        height: 50px;
-        width: 150px;
-        float: left;
+        height: 9%;
+        width: 24%;
+        /* float: left; */
         margin-left: 8px;
-        margin-top: -75px;
+        /* margin-top: -75px; */
+        padding: 5px;
+        z-index: 10;  
+        clear: both;   
+        position: relative;
+        bottom: 100px;
+        overflow: auto;
+
+    }
+
+.text-block-left-sm {
+       /* float: left; */
+       height: 50px;
+       width: 30%;
+       margin-left: 8px;
+       padding: 5px;
+       z-index: 10;
+       position: absolute;
+       top: 40px;       
+    }
+
+.text-block-right-sm {
+    clear: both;    
+    float: right;
+        height: 50px;
+        width: 30%;
+        margin-left: 8px;
         padding: 5px;
         z-index: 10;
-        
-    }
+        position: absolute;
+        top: 40px;       
+     }
+
+.clear {
+    clear: both;
+}
+
+#article h3 {
+    font-weight: lighter;
+    font-size: 2.55vw;
+}
+
+#article p {
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: center;
+    float: left;
+}
+
+
+#contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    align-items: flex-end; */
+    list-style: none;
+  }
+
+  #contact-info ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: var(--tertiary-color) 3px solid;
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+  #contact-info nav ul li {
+    margin: 5px 10px;
+}
