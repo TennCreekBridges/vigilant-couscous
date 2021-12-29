@@ -59,7 +59,7 @@ header nav ul li a {
   }
 
   header nav ul li a:hover {
-      color: var(--secondary-color)
+      color: var(--secondary-color);
       background-color: var(--tertiary-color);
   }
 
