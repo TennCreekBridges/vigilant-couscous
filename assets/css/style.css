@@ -281,28 +281,38 @@ footer {
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
 
-nav {
-    margin: 10px 0 10px 0;
-    float: right;
-}
+/* nav {
+    
+} */
 
 header nav ul {
-    display: block;
+    display: inline-block;
     width: 200px;
+    margin: 10px 0 10px 0;
+    overflow: auto;
 }
 
 header nav ul li a {
     border-bottom: none;
     font-size: 0.8rem;  
+    padding: 10px 0 10px 0;
 }
 
 #namebox {
     display: block;
     margin: auto;
     float: left;
-    text-align: center;
+    text-align: right;
     padding-top: 12px;
     width: 100%;
+}
+
+#quote {
+    margin-right: 55%;
+}
+
+.quote img {
+    height: 100px;
 }
 
 .flex {
@@ -317,6 +327,7 @@ header nav ul li a {
        justify-content: center;
        flex-direction: column;
        margin-left: 10px;
+       margin-right: 10px;
        padding: 10px 0 10px 0;
    }
 
@@ -336,6 +347,42 @@ header nav ul li a {
 #contact-info ul li a {
     border-bottom: none;
 }
-
+}
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  /* @media screen and (max-width: 575px)  */
+  @media screen and (max-width: 575px) {
+
+.text-block {
+     margin: auto;
+     text-align: center;
+     bottom: 150px;
+     width: 100%;
+}
+
+.sm-img {
+    width: 100%;
+    float: right;
+}
+
+.sm-img img {
+    width: 100%;
+    clear: both;
+}
+
+.text-block-left-sm {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+.text-block-right-sm {
+    margin: auto;
+    position: relative;
+    right: 0;
+    box-shadow: 5px 5px 3px rgb(49 52 61 / 50%);
+    display: inline-block;
+    width: 45%;
+}
+
+
+}
