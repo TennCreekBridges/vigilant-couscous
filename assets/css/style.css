@@ -22,6 +22,7 @@
 body {
     color: var(--primary-color);  
     font-size: 100%; 
+    width: 100%;
 }
 
 /* Header & Nav Styling */
@@ -98,13 +99,7 @@ header nav ul li a {
     padding: 5px;
     z-index: 10;
     font-size: 0.95rem;
-}
-
-/* Setting Height and Max Width on Hero Image */
-
-hero img {
-    max-width: 100%; 
-    height: auto;
+    box-shadow: 5px 5px 3px rgb(49 52 61 / 0.5);
 }
 
 /* Set Text Positioning of Quote */
@@ -112,15 +107,6 @@ hero img {
 .quote {
     position: relative;
     text-align: center;
-}
-
-/* Set Positioning of Quote Box */
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* Set Border, Sizing, Padding, Margin on Left Sidebar */
@@ -209,41 +195,34 @@ hero img {
 
 .text-block {
         height: 9%;
-        width: 24%;
-        /* float: left; */
+        width: 35%;
         margin-left: 8px;
         /* margin-top: -75px; */
-        padding: 5px;
+        padding: 5px 20px 5px 5px;
         z-index: 10;  
         clear: both;   
         position: relative;
         bottom: 100px;
         overflow: auto;
-
+        box-shadow: 5px 5px 3px rgb(49 52 61 / 0.5);
     }
 
 .text-block-left-sm {
-       /* float: left; */
-       height: 50px;
-       width: 30%;
-       margin-left: 8px;
-       padding: 5px;
-       z-index: 10;
        position: absolute;
-       top: 40px;       
+       margin-left: 8px; 
+       padding: 5px 30px 5px 5px;
+       z-index: 10;
+       top: 20px;
+       box-shadow: 5px 5px 3px rgb(49 52 61 / 0.5);
     }
 
 .text-block-right-sm {
-    /* clear: both;    
-     float: right; */ 
-        /* height: 50px; */
-        width: 30%;
-        margin-left: 8px;
-        padding: 5px;
-        z-index: 10;
         position: absolute;
-        top: 40px; 
-        right: 105px;      
+        padding: 5px 30px 5px 5px;
+        z-index: 10;
+        top: 20px;
+        right: 29px;  
+        box-shadow: -5px 5px 3px rgb(49 52 61 / 0.5);    
      }
 
 .clear {
