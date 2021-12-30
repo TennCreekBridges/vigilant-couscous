@@ -74,8 +74,8 @@ header nav ul li a {
 /* Set Styling Specific to Name Box */
 
 #namebox {
-    height: 50px;
-    width: 300px;
+    height: 70%;
+    width: 35%;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -83,13 +83,14 @@ header nav ul li a {
 
 #namebox h1 {
     margin-right: 10px;
+    font-size: 3.3vw;
 }
 
 /* Set Styling Specific to Jazzy Quote */
 
 #quote {
-    height: 50px;
-    width: 300px;
+    height: 30%;
+    width: 40%;
     float: right;
     margin-right: 5%;
     margin-top: -75px;
@@ -126,10 +127,13 @@ hero img {
     color: var(--secondary-color);
     width: 15%;
     text-align: right;
-    vertical-align: center;
     border-right: solid 2px var(--secondary-color);
     padding: 20px 0 20px 0;
     margin-top: 10px;
+}
+
+.sidebars h2 {
+    font-size: 2.8vw;
 }
 
 #work img {
@@ -147,6 +151,10 @@ hero img {
     margin-top: 10px;
 }
 
+/* .text-spacing-left h2 {
+    font-size: 2vw;
+} */
+
 .text-spacing-right {
     color: var(--secondary-color);
     width: 60%;
@@ -156,12 +164,12 @@ hero img {
 }
 
 .text-spacing-right p {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 /* Set Size & Corner Border on Image */
 
 .text-spacing-right img {
-    width: 150px;
+    width: 25%;
     border-radius: 10%;
     float: left;
     padding-right: 8px;
