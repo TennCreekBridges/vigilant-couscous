@@ -22,14 +22,8 @@ HTML 5 & W3.CSS 4.15
 This code was created from scratch as part of Challenge #2: Advanced CSS, through Vanderbilt's coding boot camp powered by Trilogy. 
 
 ## SCREENSHOT
-Deployed application at 863px (largest screen size):
-![863x](https://user-images.githubusercontent.com/91682561/147790942-7c89d32d-99f0-48cd-ae44-22caf559ac44.jpg)
-
-Deployed application at 475px (medium screen size):
-![475x](https://user-images.githubusercontent.com/91682561/147791005-a565c1c7-d5f9-4554-9622-89a61eec5fbc.jpg)
-
-Deployed application at 262px (smallest screen size):
-![262x](https://user-images.githubusercontent.com/91682561/147791057-e5305483-aa13-422f-8bae-3c5fea56f953.jpg)
+Deployed application various sizes:
+![screenshot-comp](https://user-images.githubusercontent.com/91682561/147791766-cb8881a9-a87b-49c3-8010-35a7d261c79b.jpg)
 
 ## LINK
 https://tenncreekbridges.github.io/vigilant-couscous/
