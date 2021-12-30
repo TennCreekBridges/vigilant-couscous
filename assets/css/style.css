@@ -132,6 +132,14 @@ hero img {
     margin-top: 10px;
 }
 
+#work img {
+    opacity: 0.5;
+}
+
+#work img:hover {
+    opacity: 1.0;
+}
+
 /* Set Additional Size, Spacing, Margins, Color & Floats on Text */
 
 .text-spacing-left {
