@@ -280,72 +280,62 @@ footer {
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-    #header {
-        height: 200px;
-    }
 
-    .quote {
-        width: 100%
-    }
+nav {
+    margin: 10px 0 10px 0;
+    float: right;
+}
 
-/* #about-me {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    /* width: 100%; */
+header nav ul {
+    display: block;
+    width: 200px;
+}
 
+header nav ul li a {
+    border-bottom: none;
+    font-size: 0.8rem;  
+}
+
+#namebox {
+    display: block;
+    margin: auto;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    width: 100%;
+}
 
 .flex {
     display: inline-block;
-    /* flex-direction: center;
-    justify-content: center; */
 }
 
-   .sidebars { 
+.sidebars { 
        width: 100%;
        text-align: center;
        border-bottom: solid 2px var(--secondary-color);
        border-right: none;
        justify-content: center;
        flex-direction: column;
+       margin-left: 10px;
+       padding: 10px 0 10px 0;
    }
 
-   .text-spacing-right: {
-       justify-content: center;
+.text-spacing-right {
+    width: 100%;
+    float: none;
    }
 
-    #nav a {
-        float: none;
-        width: 100%;
-  }
-  
+#contact-me {
+    width: 100%;
+}
+
+#contact-info ul {
+    margin-top: 20px;
+}
+ 
+#contact-info ul li a {
+    border-bottom: none;
+}
+
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
-  
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-  
-    .contact-form {
-      order: 3;
-    }
-  }
+  /* @media screen and (max-width: 575px)  */
