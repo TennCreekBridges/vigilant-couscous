@@ -131,10 +131,6 @@ header nav ul li a {
     margin-top: 10px;
 }
 
-/* .text-spacing-left h2 {
-    font-size: 2vw;
-} */
-
 .text-spacing-right {
     color: var(--secondary-color);
     width: 60%;
@@ -143,10 +139,7 @@ header nav ul li a {
     float: left;
 }
 
-/* .text-spacing-right p {
-    font-size: 1rem;
-} */
-/* Set Size & Corner Border on Image */
+/* Set Size & Corner Border on Portrait Image */
 
 .text-spacing-right img {
     width: 25%;
@@ -154,6 +147,8 @@ header nav ul li a {
     float: left;
     padding-right: 8px;
 }
+
+/* Set Project Image Styles */
 
 .project img {
     border-radius: 0;
@@ -179,10 +174,6 @@ header nav ul li a {
     margin-top: -50px;
 }
 
-/* #large {
-    display: inline;
-} */
-
 .sm-img img {
     max-width: 48%;
     margin-top: 5px;
@@ -193,11 +184,12 @@ header nav ul li a {
     position: relative;
 }
 
+/* Set Project Text & Text Block Styles */
+
 .text-block {
         height: 9%;
         width: 35%;
         margin-left: 8px;
-        /* margin-top: -75px; */
         padding: 5px 20px 5px 5px;
         z-index: 10;  
         clear: both;   
@@ -225,10 +217,6 @@ header nav ul li a {
         box-shadow: -5px 5px 3px rgb(49 52 61 / 0.5);    
      }
 
-.clear {
-    clear: both;
-}
-
 #article h3 {
     font-size: 1.35rem;
 }
@@ -238,9 +226,13 @@ header nav ul li a {
     /* font-size: 1.55vw; */
 }
 
-/* #nav2 {
-    display: block;
-} */
+/* Set To Clear Floats */
+
+.clear {
+    clear: both;
+}
+
+/* Begin Footer & Contact Styles */
 
 footer {
      margin-bottom: 30px;
@@ -255,8 +247,6 @@ footer {
     align-items: center;
     list-style: none;
     padding-left: 20px;
-    /* flex-wrap: wrap;
-    justify-content: space-evenly; */
   }
 
   #contact-info li {
@@ -278,12 +268,9 @@ footer {
 }
 
 
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+/* Media Query for Tablets 768px & Smaller */
 
-/* nav {
-    
-} */
+@media screen and (max-width: 768px) {
 
 header nav ul {
     display: inline-block;
@@ -348,8 +335,9 @@ header nav ul li a {
     border-bottom: none;
 }
 }
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+
+/* Set Media Query for Mobile Phones & Other Small Screens */
+@media screen and (max-width: 575px) {
 
 .text-block {
      margin: auto;
@@ -383,6 +371,4 @@ header nav ul li a {
     display: inline-block;
     width: 45%;
 }
-
-
 }
