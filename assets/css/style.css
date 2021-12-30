@@ -234,15 +234,16 @@ hero img {
     }
 
 .text-block-right-sm {
-    clear: both;    
-    float: right;
-        height: 50px;
+    /* clear: both;    
+     float: right; */ 
+        /* height: 50px; */
         width: 30%;
         margin-left: 8px;
         padding: 5px;
         z-index: 10;
         position: absolute;
-        top: 40px;       
+        top: 40px; 
+        right: 105px;      
      }
 
 .clear {
@@ -258,28 +259,25 @@ hero img {
     /* font-size: 1.55vw; */
 }
 
-#nav2 {
+/* #nav2 {
     display: block;
-}
+} */
 
 footer {
      margin-bottom: 30px;
 }
 
 #contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-around;
 }
 
 #contact-info ul {
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
     padding-left: 20px;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
   }
 
   #contact-info li {
@@ -289,7 +287,7 @@ footer {
   #contact-info ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 0.9rem;
     border-bottom: var(--secondary-color) 3px solid;
     text-decoration: none;
     color: var(--secondary-color);
