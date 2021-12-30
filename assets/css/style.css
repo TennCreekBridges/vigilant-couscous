@@ -181,10 +181,22 @@ hero img {
     padding: 0;
 }
 
+.project a {
+    text-decoration: none;
+}
+
 .lg-img img {
     width: 97%;
     margin-left: 5px;
 }
+
+#sm-proj {
+    margin-top: -50px;
+}
+
+/* #large {
+    display: inline;
+} */
 
 .sm-img img {
     max-width: 48%;
