@@ -20,7 +20,8 @@
 /* Main Body Styling */
 
 body {
-    color: var(--primary-color);   
+    color: var(--primary-color);  
+    font-size: 100%; 
 }
 
 /* Header & Nav Styling */
@@ -54,7 +55,7 @@ header nav li {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 0.9rem;
     border-bottom: var(--tertiary-color) 3px solid;
   }
 
@@ -83,7 +84,7 @@ header nav ul li a {
 
 #namebox h1 {
     margin-right: 10px;
-    font-size: 3.3vw;
+    font-size: 1.65rem;
 }
 
 /* Set Styling Specific to Jazzy Quote */
@@ -96,6 +97,7 @@ header nav ul li a {
     margin-top: -75px;
     padding: 5px;
     z-index: 10;
+    font-size: 0.95rem;
 }
 
 /* Setting Height and Max Width on Hero Image */
@@ -133,7 +135,7 @@ hero img {
 }
 
 .sidebars h2 {
-    font-size: 2.8vw;
+    font-size: 1.5rem;
 }
 
 /* Set Additional Size, Spacing, Margins, Color & Floats on Text */
@@ -155,9 +157,9 @@ hero img {
     float: left;
 }
 
-.text-spacing-right p {
-    font-size: 1.5vw;
-}
+/* .text-spacing-right p {
+    font-size: 1rem;
+} */
 /* Set Size & Corner Border on Image */
 
 .text-spacing-right img {
@@ -248,13 +250,12 @@ hero img {
 }
 
 #article h3 {
-    font-weight: lighter;
-    font-size: 2.55vw;
+    font-size: 1.35rem;
 }
 
 #article p {
     font-weight: lighter;
-    font-size: 1.55vw;
+    /* font-size: 1.55vw; */
 }
 
 #nav2 {
@@ -293,3 +294,9 @@ footer {
     text-decoration: none;
     color: var(--secondary-color);
   }
+
+#contact-info ul li a:hover {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+}
+
