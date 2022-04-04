@@ -154,7 +154,7 @@ header nav ul li a {
     border-radius: 0;
     border: var(--tertiary-color) 3px solid;
     padding: 0;
-    opacity: 0.5;
+    opacity: 0.85;
 }
 
 .project img:hover {
